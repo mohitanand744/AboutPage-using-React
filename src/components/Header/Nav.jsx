@@ -9,7 +9,7 @@ const Nav = () => {
     <>
       <nav>
         <div className="logoContainer">
-          <img src="./public/qoach.png" alt="" />
+          <img src="/qoach.png" alt="" />
         </div>
         <div className="rightContainer">
           <div className="navLinks">
