@@ -192,8 +192,9 @@ nav {
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
     align-items: center;
-    gap: 1rem;
     padding: 5rem;
+    max-width: 95%;
+    margin: 0 auto;
 
     & .profileImage {
       width: 40rem;
@@ -226,12 +227,77 @@ nav {
     }
 
     & .txtCon {
-      font-size: 1.7rem;
+      font-size: 1.8rem;
+      color: #00504e;
+      font-weight: 450;
     }
+  }
+
+  & .invite {
+    font-weight: bold;
+    font-size: 1.7rem;
+    max-width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    color: #00504e;
+  }
+
+  & .thanks {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 3rem;
+    font-weight: 500;
+    color: #00504e;
   }
 }
 
 /***** End CCOcontainer Section *****/
+
+/***** CoreValues Section *****/
+
+.CoreValues {
+  height: fit-content;
+  background-color: #00504e;
+  padding: 5rem;
+
+  & header {
+    text-align: center;
+    padding: 0rem 0 4rem 0;
+    font-size: 2rem;
+    color: var(--white-Color);
+  }
+
+  & .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+
+    & .card {
+      width: 42rem;
+
+      display: flex;
+      gap: 1rem;
+      color: #fff;
+      & .icon {
+        color: #ff962c;
+        font-size: 5rem;
+      }
+
+      & .title {
+        font-weight: bold;
+        font-size: 2rem;
+      }
+
+      & .contents {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}
+
+/***** End CoreValues Section *****/
 
 /***** Responsiveness Section *****/
 
@@ -303,6 +369,11 @@ nav {
   .visionContainer {
     & .content {
       max-width: 100%;
+    }
+  }
+  .CCOcontainer {
+    & .invite {
+      max-width: 90%;
     }
   }
 }

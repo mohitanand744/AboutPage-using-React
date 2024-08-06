@@ -47,6 +47,13 @@ const Message = () => {
           </p>
         </div>
       </div>
+      <p className="invite">
+        I invite you to explore all that Qoach.io has to offer, from our diverse
+        range of expert coaches to our innovative coaching methodologies. Let's
+        collaborate to turn your goals into reality and create a future where
+        you thrive both personally and professionally.
+      </p>
+      <p className="thanks">Thank You!</p>
     </div>
   );
 };
