@@ -19,6 +19,7 @@ const router = createBrowserRouter(
       <Route path="browser_coach" element={<About />} />
       <Route path="stream" element={<About />} />
       <Route path="become_a_coach" element={<About />} />
+ <Route path="*" element={<center><h1>Not Found!!</h1></center>} />
     </Route>
   )
 );
