@@ -29,6 +29,11 @@
   font-size: 1.7rem;
 }
 
+.icon {
+  font-size: 3.8rem;
+  color: #964b00;
+}
+
 .Active {
   color: #964b00;
   font-weight: bold;
@@ -72,6 +77,7 @@ nav {
         width: 4.5rem;
         height: 4.5rem;
         display: none;
+        cursor: pointer;
 
         & img {
           width: 100%;
@@ -136,6 +142,35 @@ nav {
 
 /***** AboutQoachDetails End Section *****/
 
+/***** Our Vision Section *****/
+
+.visionContainer {
+  height: fit-content;
+  background-color: var(--nav-color-bg);
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+
+  & .mainContent {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  & .heading {
+    font-size: 1.9rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  & .content {
+    font-size: 1.7rem;
+  }
+}
+
+/***** End Our Vision Section *****/
+
 /***** Responsiveness Section *****/
 
 @media screen and (width < 1048px) {
@@ -184,6 +219,11 @@ nav {
   .about-container {
     grid-template-columns: 1fr;
     gap: 4rem;
+  }
+  .visionContainer {
+    & .mainContent {
+      max-width: 96%;
+    }
   }
 }
 
