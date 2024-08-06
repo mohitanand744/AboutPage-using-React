@@ -1,0 +1,35 @@
+.navLinks {
+  width: 25rem;
+  height: 26rem;
+  background-color: #ffefd3;
+  position: fixed;
+  right: 2rem;
+  top: 8rem;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 1.5rem;
+  padding: 2rem;
+  cursor: pointer;
+  z-index: 999999;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  & p {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.9rem;
+    font-weight: bold;
+  }
+}
+
+.Active {
+  color: #793c00;
+  font-weight: bold;
+  border-bottom: 4px solid #0a0a0a;
+}

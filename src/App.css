@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Signika:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --nav-color-bg: #fbf3e4;
+  --about-qoach-bg: #00504e;
+  --white-Color: #ffff;
+  font-size: 62.5%;
+}
+
+/***** Global css *****/
+
+.transparent {
+  padding: 0.3rem 1.9rem;
+  background: transparent;
+  border-radius: 0.8rem;
+  -webkit-border-radius: 0.8rem;
+  -moz-border-radius: 0.8rem;
+  -ms-border-radius: 0.8rem;
+  -o-border-radius: 0.8rem;
+  border: 1.8px solid #303030;
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+
+.Active {
+  color: #964b00;
+  font-weight: bold;
+}
+
+/***** End Global css *****/
+
+/***** Header Section *****/
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 7rem;
+  padding: 0 4%;
+  background: var(--nav-color-bg);
+
+  & .logoContainer {
+    text-align: center;
+  }
+
+  & .rightContainer {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+
+    & .navLinks {
+      display: flex;
+      align-items: center;
+      gap: 3rem;
+      font-size: 1.8rem;
+      font-weight: 500;
+    }
+
+    & .btnContainer {
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+
+      & .menu {
+        width: 4.5rem;
+        height: 4.5rem;
+        display: none;
+
+        & img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+}
+
+/***** End Header Section *****/
+
+/***** AboutQoachDetails Section *****/
+
+.about-container {
+  height: fit-content;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  justify-items: center;
+  align-items: center;
+  padding: 0 4%;
+  background-color: var(--about-qoach-bg);
+  position: relative;
+  opacity: 0.99;
+  padding: 5rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("../public/about-qocha-bg.png");
+    opacity: 0.08; /* Adjust the opacity as needed */
+    z-index: -1; /* Ensure the pseudo-element is behind the content */
+  }
+
+  & .text-section {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    font-size: 1.9rem;
+    color: var(--white-Color);
+    width: 90%;
+
+    & h2 {
+      text-align: center;
+    }
+  }
+  & .image-section {
+    width: 38rem;
+    height: 38rem;
+
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+/***** AboutQoachDetails End Section *****/
+
+/***** Responsiveness Section *****/
+
+@media screen and (width < 1048px) {
+  :root {
+    font-size: 59%;
+  }
+}
+
+@media screen and (width < 988px) {
+  nav {
+    justify-content: space-between;
+
+    & .logoContainer {
+      flex: 0;
+    }
+
+    & .rightContainer {
+      & .navLinks {
+        display: none;
+      }
+
+      & .btnContainer {
+        & .menu {
+          display: block;
+        }
+      }
+    }
+  }
+
+  :root {
+    font-size: 57%;
+  }
+}
+
+@media screen and (width < 860px) {
+  .about-container {
+    padding: 3rem;
+  }
+}
+
+@media screen and (width < 788px) {
+  :root {
+    font-size: 55%;
+  }
+
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+}
+
+@media screen and (width < 648px) {
+  :root {
+    font-size: 50%;
+  }
+}
+
+@media screen and (width < 468px) {
+  :root {
+    font-size: 47%;
+  }
+}
+/***** End Responsiveness Section *****/
