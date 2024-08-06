@@ -124,13 +124,14 @@ nav {
     font-size: 1.9rem;
     color: var(--white-Color);
     width: 90%;
+    padding: 2rem;
 
     & h2 {
       text-align: center;
     }
   }
   & .image-section {
-    width: 38rem;
+    width: 44rem;
     height: 38rem;
 
     & img {
@@ -153,7 +154,7 @@ nav {
   gap: 4rem;
 
   & .mainContent {
-    max-width: 80%;
+    max-width: 90%;
     margin: 0 auto;
   }
 
@@ -166,10 +167,71 @@ nav {
 
   & .content {
     font-size: 1.7rem;
+    max-width: 85%;
   }
 }
 
 /***** End Our Vision Section *****/
+
+/***** CCOcontainer Section *****/
+
+.CCOcontainer {
+  height: fit-content;
+
+  & header {
+    text-align: center;
+    padding: 2rem;
+    font-size: 2.8rem;
+    color: #964b00;
+    font-weight: 500;
+    letter-spacing: 0.8rem;
+  }
+
+  & .msgContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 5rem;
+
+    & .profileImage {
+      width: 40rem;
+      height: 49rem;
+      border: 1px solid #00504e;
+      border-radius: 3rem;
+      -webkit-border-radius: 3rem;
+      -moz-border-radius: 3rem;
+      -ms-border-radius: 3rem;
+      -o-border-radius: 3rem;
+      padding-bottom: 2.5rem;
+
+      & img {
+        width: 100%;
+        height: 90%;
+        object-fit: cover;
+        border-radius: 3rem;
+        -webkit-border-radius: 3rem;
+        -moz-border-radius: 3rem;
+        -ms-border-radius: 3rem;
+        -o-border-radius: 3rem;
+        margin-bottom: 1rem;
+      }
+
+      & p {
+        font-weight: bold;
+        font-size: 1.5rem;
+        padding-left: 2rem;
+      }
+    }
+
+    & .txtCon {
+      font-size: 1.7rem;
+    }
+  }
+}
+
+/***** End CCOcontainer Section *****/
 
 /***** Responsiveness Section *****/
 
@@ -203,6 +265,13 @@ nav {
   :root {
     font-size: 57%;
   }
+
+  .CCOcontainer {
+    & .msgContainer {
+      grid-template-columns: 1fr;
+      gap: 4rem;
+    }
+  }
 }
 
 @media screen and (width < 860px) {
@@ -230,6 +299,11 @@ nav {
 @media screen and (width < 648px) {
   :root {
     font-size: 50%;
+  }
+  .visionContainer {
+    & .content {
+      max-width: 100%;
+    }
   }
 }
 

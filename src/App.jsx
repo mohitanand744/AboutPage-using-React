@@ -1,8 +1,8 @@
-import { useState } from "react";
 import "./App.css";
 import Nav from "./components/Header/Nav";
 import AboutQoachDetails from "./components/AboutQoach/AboutQoachDetails";
 import Vision from "./components/OurVision/Vision";
+import Message from "./components/CCO/Message";
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
       <Nav />
       <AboutQoachDetails />
       <Vision />
+      <Message />
     </div>
   );
 }
