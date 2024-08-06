@@ -19,7 +19,9 @@
   z-index: 999999;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
-  & p {
+  & a {
+    text-decoration: none;
+    color: #000000;
     width: 90%;
     margin: 0 auto;
     font-size: 1.9rem;

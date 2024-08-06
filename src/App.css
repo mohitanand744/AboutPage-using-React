@@ -35,7 +35,7 @@
 }
 
 .Active {
-  color: #964b00;
+  color: #c06000 !important;
   font-weight: bold;
 }
 
@@ -66,6 +66,11 @@ nav {
       gap: 3rem;
       font-size: 1.8rem;
       font-weight: 500;
+
+      & a {
+        text-decoration: none;
+        color: #000000;
+      }
     }
 
     & .btnContainer {
