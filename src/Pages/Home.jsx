@@ -4,7 +4,7 @@ function Home() {
       <div className="custom-card container-fluid">
         <img src="./Customcardbg.webp" alt="Background Image" />
         <h1 className=" fw-bold col-12 container text-white mb-5">
-          Your Need Is Unique, So Your <br /> Coach Should Be Too!
+          Your Need Is Unique, So Your Coach Should Be Too!
         </h1>
         <div className="card container custom-bg p-4 col-12">
           <div className="card-body">
