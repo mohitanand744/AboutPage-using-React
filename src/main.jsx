@@ -26,7 +26,7 @@ const router = createBrowserRouter(
       <Route
         path="*"
         element={
-          <center className="mt-5">
+          <center className="mt">
             <h1>Page Not Found!!</h1>
           </center>
         }

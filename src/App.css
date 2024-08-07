@@ -16,6 +16,30 @@
 
 /***** Global css *****/
 
+.navbar-toggler {
+  display: none;
+}
+
+.btns {
+  font-size: 1.8rem !important;
+  border: 2px solid #000 !important;
+  padding: 0 2rem;
+  background: transparent;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.mt {
+  margin-top: 14rem !important;
+}
+.btn-primary {
+  background-color: #00504e !important;
+  color: var(--white-Color) !important;
+}
+
 .transparent {
   padding: 0.3rem 1.9rem;
   background: transparent;
@@ -35,8 +59,14 @@
 }
 
 .Active {
-  color: #c06000 !important;
+  color: #ec7b09 !important;
   font-weight: bold;
+}
+
+.sideBar {
+  background: var(--nav-color-bg) !important;
+  border-top-left-radius: 3rem;
+  border-bottom-left-radius: 3rem;
 }
 
 /***** End Global css *****/
@@ -44,53 +74,8 @@
 /***** Header Section *****/
 
 nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 7rem;
   padding: 0 4%;
   background: var(--nav-color-bg);
-
-  & .logoContainer {
-    text-align: center;
-  }
-
-  & .rightContainer {
-    display: flex;
-    align-items: center;
-    gap: 3rem;
-
-    & .navLinks {
-      display: flex;
-      align-items: center;
-      gap: 3rem;
-      font-size: 1.8rem;
-      font-weight: 500;
-
-      & a {
-        text-decoration: none;
-        color: #000000;
-      }
-    }
-
-    & .btnContainer {
-      display: flex;
-      gap: 2rem;
-      align-items: center;
-
-      & .menu {
-        width: 4.5rem;
-        height: 4.5rem;
-        display: none;
-        cursor: pointer;
-
-        & img {
-          width: 100%;
-          height: 100%;
-        }
-      }
-    }
-  }
 }
 
 /***** End Header Section *****/
@@ -130,6 +115,7 @@ nav {
     color: var(--white-Color);
     width: 90%;
     padding: 2rem;
+    margin-top: 4rem;
 
     & h2 {
       text-align: center;
@@ -316,7 +302,7 @@ nav {
 }
 .custom-card {
   position: relative;
-  height: 70vh;
+  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -362,12 +348,21 @@ nav {
 }
 
 .container {
-  width: 45% !important;
+  width: 40% !important;
 }
 
 /***** End Home Section *****/
 
 /***** Responsiveness Section *****/
+
+@media screen and (width < 1200px) {
+  .navbar-toggler {
+    display: block;
+  }
+  .navLinks {
+    display: none !important;
+  }
+}
 
 @media screen and (width < 1048px) {
   :root {
