@@ -23,6 +23,7 @@ const router = createBrowserRouter(
     <Route path="/" element={<Layout />}>
       <Route index element={<Home />} />
       <Route path="about" element={<About />} />
+<<<<<<< HEAD
       <Route
         path="*"
         element={
@@ -31,6 +32,12 @@ const router = createBrowserRouter(
           </center>
         }
       />
+=======
+      <Route path="browser_coach" element={<About />} />
+      <Route path="stream" element={<About />} />
+      <Route path="become_a_coach" element={<About />} />
+ <Route path="*" element={<center><h1>Not Found!!</h1></center>} />
+>>>>>>> 262c890bdc6dd14a12ae9bf871958a9e7d663bda
     </Route>
   )
 );
