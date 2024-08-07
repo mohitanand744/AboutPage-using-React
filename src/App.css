@@ -16,8 +16,39 @@
 
 /***** Global css *****/
 
+.pd {
+  padding: 7rem !important;
+}
+
 .navbar-toggler {
   display: none;
+}
+
+.card-title {
+  font-weight: 600;
+}
+
+.bolder {
+  font-weight: 700;
+}
+
+.l-s {
+  letter-spacing: 0.7rem;
+  color: #964b00;
+}
+
+.card {
+  width: 25rem !important;
+  height: fit-content;
+  border-radius: 3rem !important;
+  -webkit-border-radius: 3rem !important;
+  -moz-border-radius: 3rem !important;
+  -ms-border-radius: 3rem !important;
+  -o-border-radius: 3rem !important;
+
+  &:nth-child(2) {
+    background-color: var(--nav-color-bg);
+  }
 }
 
 .btns {
@@ -97,6 +128,7 @@
 }
 .stats-section .stat h2 {
   font-weight: 900;
+  font-size: 2.5rem;
 }
 
 /***** End Global css *****/
