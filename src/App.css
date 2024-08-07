@@ -38,7 +38,7 @@
 }
 
 .card {
-  width: 25rem !important;
+  width: 28rem !important;
   height: fit-content;
   border-radius: 3rem !important;
   -webkit-border-radius: 3rem !important;
@@ -509,6 +509,12 @@ nav {
   }
   .container {
     width: 95% !important;
+  }
+  .card {
+    width: 100% !important;
+  }
+  .pd {
+    padding: 4rem !important;
   }
 }
 /***** End Responsiveness Section *****/

@@ -6,8 +6,8 @@ function Home() {
         <h1 className=" fw-bold  container text-white mb-5">
           Your Need Is Unique, So Your Coach Should Be Too!
         </h1>
-        <div className="cards container custom-bg p-4 ">
-          <div className="card-body">
+        <div className="cards container custom-bg p-3 ">
+          <div className="card-body ">
             <p className="card-text text-secondary mb-4 fs-3 text-start">
               <span className="text-white">I am not able to scale up</span> my
               IT business. How to generate leads and increase Sales. Please
