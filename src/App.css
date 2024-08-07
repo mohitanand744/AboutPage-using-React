@@ -279,7 +279,7 @@ nav {
     justify-content: center;
     align-items: center;
 
-    & .card {
+    & .cards {
       width: 42rem;
 
       display: flex;
@@ -304,11 +304,77 @@ nav {
 
 /***** End CoreValues Section *****/
 
+/***** Home Section *****/
+
+.custom-bg {
+  background: #00504e4d !important;
+  color: #fff;
+  position: relative;
+}
+.ms-5 {
+  margin-left: 9rem !important;
+}
+.custom-card {
+  position: relative;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  & h1 {
+    font-size: 3.3rem;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000a9;
+    z-index: -1;
+  }
+}
+.custom-card img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.custom-card .card-body {
+  text-align: center;
+  background-color: none !important;
+  position: relative;
+
+  & .vectorContainer {
+    width: 3rem;
+    height: 3rem;
+    z-index: 2;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+.container {
+  width: 45% !important;
+}
+
+/***** End Home Section *****/
+
 /***** Responsiveness Section *****/
 
 @media screen and (width < 1048px) {
   :root {
     font-size: 59%;
+  }
+  .container {
+    width: 55% !important;
   }
 }
 
@@ -349,6 +415,9 @@ nav {
   .about-container {
     padding: 3rem;
   }
+  .container {
+    width: 75% !important;
+  }
 }
 
 @media screen and (width < 788px) {
@@ -380,6 +449,9 @@ nav {
     & .invite {
       max-width: 90%;
     }
+  }
+  .container {
+    width: 95% !important;
   }
 }
 

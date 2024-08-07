@@ -14,7 +14,7 @@ import Layout from "./Layout.jsx";
 /*  Start Bootstrap Importing Section */
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.js";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 /*  End Bootstrap Section */
 
@@ -28,14 +28,6 @@ const router = createBrowserRouter(
         element={
           <center className="mt-5">
             <h1>Page Not Found!!</h1>
-          </center>
-        }
-      />
-      <Route
-        path="*"
-        element={
-          <center>
-            <h1>Not Found!!</h1>
           </center>
         }
       />

@@ -10,7 +10,7 @@ const CoreValues = () => {
         <h2>Our Core Values</h2>
       </header>
       <div className="cardContainer">
-        <div className="card">
+        <div className="cards">
           <div>
             <MdSettingsSuggest className="icon" />
           </div>
@@ -22,7 +22,7 @@ const CoreValues = () => {
             </p>
           </div>
         </div>
-        <div className="card">
+        <div className="cards">
           <div>
             <MdDisplaySettings className="icon" />
           </div>
@@ -34,7 +34,7 @@ const CoreValues = () => {
             </p>
           </div>
         </div>
-        <div className="card">
+        <div className="cards">
           <div>
             <FaUsers className="icon" />
           </div>
