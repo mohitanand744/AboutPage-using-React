@@ -123,6 +123,49 @@
     opacity: 0.08;
   }
 }
+
+.whyQoacha {
+  background: #003635;
+  color: white;
+  width: 100%;
+  opacity: 0.99;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("https://s3-alpha-sig.figma.com/img/8c40/eb6c/d58c69f63d023d9d802ea4043aa9c8e0?Expires=1724025600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=aHeA8iFq0WAqd3ynoX74dBzv3fjLb22jsnJpdt7RH-TCJITWNNqb0EE0htfLFTu1QxroxA5HAaRrYQ8-nhnyXZiHkfu~mtggMxKiWc50ZCtPRc~WrB14aky~suDRBwsJshJqAqnbb858Cz6GURDADHxOkEYWQOi3ClZyIEAVjchU6q6brWQS83qJHhxE9rD4HQxtMw3Tf6zOP~T6HuZ84U8IM9C61LiYsfHkhBOYL9cn03NJRmoRpBUof-URfXSj1UotVgn27LFaGbdU7L-7dltm-E0OV1G9m3Z8-WjU4zLXzO7O6Gy3bMGe6NEkBHG5BxLKHVobconuP1ETM~xWbQ__");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+    opacity: 0.08;
+  }
+
+  & .l-s {
+    color: var(--nav-color-bg);
+  }
+
+  & .bg {
+    background: var(--nav-color-bg);
+    width: 70%;
+  }
+
+  & .image_Container {
+    width: 30rem;
+    height: 30rem;
+
+    & img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
 .stats-section .stat {
   text-align: center;
 }
@@ -489,6 +532,12 @@ nav {
   .visionContainer {
     & .mainContent {
       max-width: 96%;
+    }
+  }
+
+  .whyQoacha {
+    & .bg {
+      width: 100%;
     }
   }
 }
