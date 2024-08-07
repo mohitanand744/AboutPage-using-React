@@ -479,10 +479,4 @@ nav {
     width: 95% !important;
   }
 }
-
-@media screen and (width < 468px) {
-  :root {
-    font-size: 47%;
-  }
-}
 /***** End Responsiveness Section *****/
