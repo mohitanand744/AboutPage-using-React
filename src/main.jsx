@@ -11,14 +11,26 @@ import Home from "./Pages/Home.jsx";
 import About from "./Pages/About";
 import Layout from "./Layout.jsx";
 
+/*  Start Bootstrap Importing Section */
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.js";
+
+/*  End Bootstrap Section */
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route index element={<Home />} />
       <Route path="about" element={<About />} />
-      <Route path="browser_coach" element={<About />} />
-      <Route path="stream" element={<About />} />
-      <Route path="become_a_coach" element={<About />} />
+      <Route
+        path="*"
+        element={
+          <center className="mt-5">
+            <h1>Page Not Found!!</h1>
+          </center>
+        }
+      />
     </Route>
   )
 );
