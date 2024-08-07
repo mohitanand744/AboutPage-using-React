@@ -183,13 +183,13 @@ const Nav = () => {
             </div>
             <div className="d-flex flex-row justify-content-center gap-5 mb-5">
               <button
-                className="btn btn-primary fs-2 p-4 fw-medium"
+                className="btn btn-primary fs-3 p-3 btns fw-medium"
                 type="button"
               >
                 Sign Up
               </button>
               <button
-                className="btn btn-primary fs-2 p-4 fw-medium"
+                className="btn btn-primary fs-3 p-3 btns fw-medium"
                 type="button"
               >
                 Login
