@@ -124,8 +124,8 @@ function Home() {
           <h1 className="fw-bolder">Top COACH</h1>
         </header>
         <div className="container w-auto">
-          <div className="row gap-5 justify-content-center">
-            <div className="col-xl-3 col-lg-4 col-md-6  text-center mt-5 br p-4 ccss">
+          <div className="row mt-5 gap-5 justify-content-center">
+            <div className="col-xl-3 col-lg-4 col-md-6  text-center  br p-4 ccss">
               <img width={75} className="m-auto" src="./profile1.png" alt="" />
               <h2 className="fs-1 fw-bold mt-2">Jim Robey</h2>
               <p className="fs-4">Spirituality, Leadership, Executive</p>
@@ -142,7 +142,7 @@ function Home() {
               </p>
               <img className="tags" width={80} src="./tags.png" alt="" />
             </div>
-            <div className="col-xl-3 col-lg-4 col-md-6 text-center mt-5 br p-4 ccss">
+            <div className="col-xl-3 col-lg-4 col-md-6 text-center  br p-4 ccss">
               <img width={75} className="m-auto" src="./profile2.png" alt="" />
               <h2 className="fs-1 fw-bold mt-2">Jim Robey</h2>
               <p className="fs-4">Spirituality, Leadership, Executive</p>
@@ -159,7 +159,7 @@ function Home() {
               </p>
               <img className="tags" width={80} src="./tags2.png" alt="" />
             </div>{" "}
-            <div className="col-xl-3 col-lg-4 col-md-6 text-center mt-5 br p-4 ccss">
+            <div className="col-xl-3 col-lg-4 col-md-6 text-center  br p-4 ccss">
               <img width={75} className="m-auto" src="./profile3.png" alt="" />
               <h2 className="fs-1 fw-bold mt-2">Jim Robey</h2>
               <p className="fs-4">Spirituality, Leadership, Executive</p>
@@ -176,7 +176,7 @@ function Home() {
               </p>
               <img className="tags" width={80} src="./tags3.png" alt="" />
             </div>{" "}
-            <div className="col-xl-3 col-lg-4 col-md-6  text-center mt-5 br p-4 ccss">
+            <div className="col-xl-3 col-lg-4 col-md-6  text-center  br p-4 ccss">
               <img width={75} className="m-auto" src="./profile1.png" alt="" />
               <h2 className="fs-1 fw-bold mt-2">Jim Robey</h2>
               <p className="fs-4">Spirituality, Leadership, Executive</p>
@@ -193,7 +193,7 @@ function Home() {
               </p>
               <img className="tags" width={80} src="./tags.png" alt="" />
             </div>
-            <div className="col-lg-4  col-xl-3  col-md-6 text-center mt-5 br p-4 ccss">
+            <div className="col-lg-4  col-xl-3  col-md-6 text-center  br p-4 ccss">
               <img width={75} className="m-auto" src="./profile2.png" alt="" />
               <h2 className="fs-1 fw-bold mt-2">Jim Robey</h2>
               <p className="fs-4">Spirituality, Leadership, Executive</p>
@@ -210,7 +210,7 @@ function Home() {
               </p>
               <img className="tags" width={80} src="./tags3.png" alt="" />
             </div>{" "}
-            <div className="col-xl-3 col-lg-4 col-md-6 text-center mt-5 br p-4 ccss">
+            <div className="col-xl-3 col-lg-4 col-md-6 text-center  br p-4 ccss">
               <img width={75} className="m-auto" src="./profile3.png" alt="" />
               <h2 className="fs-1 fw-bold mt-2">Jim Robey</h2>
               <p className="fs-4">Spirituality, Leadership, Executive</p>
