@@ -29,9 +29,9 @@
   -ms-border-radius: 2rem !important;
   -o-border-radius: 2rem !important;
 }
-/* h1 {
+h1 {
   font-size: 3.5rem !important;
-} */
+}
 
 .navbar-toggler {
   display: none;
