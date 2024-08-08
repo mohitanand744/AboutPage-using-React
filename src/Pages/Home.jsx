@@ -6,7 +6,7 @@ function Home() {
         <h1 className=" fw-bold  container text-white mb-5">
           Your Need Is Unique, So Your Coach Should Be Too!
         </h1>
-        <div className="cards container custom-bg p-3 ">
+        <div className="cards container custom-bg br p-4 ">
           <div className="card-body ">
             <p className="card-text text-secondary mb-4 fs-3 text-start">
               <span className="text-white">I am not able to scale up</span> my
@@ -94,22 +94,22 @@ function Home() {
 
       {/* __________________________________________ */}
 
-      <div className="container-fluid pd whyQoacha">
-        <div className=" d-flex gap-5 justify-content-center justify-content-sm-start  flex-wrap">
-          <div className="image_Container">
-            <img src="./bigLogo.png" alt="" />
+      <div class="container-fluid pd whyQoacha">
+        <div class="row justify-content-center align-items-center gap-5">
+          <div class="col-xl-4 col-lg-6 col-sm-12 order-1 order-sm-1 image_Container ">
+            <img src="./bigLogo.png" alt="Logo" />
           </div>
-          <div className="txt_Container d-flex flex-column align-items-start gap-4">
-            <p className="fs-2 l-s">WHY QOACH</p>
-            <h1>
+          <div class="col-xl-4 col-lg-6 col-sm-12 order-2 order-sm-2  d-flex flex-column gap-4 align-items-start">
+            <p class="fs-2 l-s">WHY QOACH?</p>
+            <h1 className="lh">
               Connect with coaches who've been through what you're facing and
               can guide you to success.
             </h1>
-            <p className="fs-3 text-dark p-4 bg">
+            <p class="fs-3 text-dark p-4 bg">
               Lorem ipsum dolor sit amet consectetur. Tempus amet mauris velit
               sed. Non sodales diam non viverra dui.
             </p>
-            <button className="btn btn-outline-dark text-white p-3 fs-2 border-3 ">
+            <button class="btn btn-outline-dark text-white p-3 fs-2 border-3">
               Join Demo
             </button>
           </div>
