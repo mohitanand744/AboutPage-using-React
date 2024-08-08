@@ -94,24 +94,139 @@ function Home() {
 
       {/* __________________________________________ */}
 
-      <div class="container-fluid pd whyQoacha">
-        <div class="row justify-content-center align-items-center gap-5">
-          <div class="col-xl-4 col-lg-6 col-sm-12 order-1 order-sm-1 image_Container ">
+      <div className="container-fluid pd whyQoacha">
+        <div className="row justify-content-center align-items-center gap-5">
+          <div className="col-xl-4 col-lg-6 col-sm-12 order-1 order-sm-1 image_Container ">
             <img src="./bigLogo.png" alt="Logo" />
           </div>
-          <div class="col-xl-4 col-lg-6 col-sm-12 order-2 order-sm-2  d-flex flex-column gap-4 align-items-start">
-            <p class="fs-2 l-s">WHY QOACH?</p>
-            <h1 className="lh">
+          <div className="col-xl-4 col-lg-6 col-sm-12 order-2 order-sm-2  d-flex flex-column gap-4 align-items-start">
+            <p className="fs-2 l-s">WHY QOACH?</p>
+            <h1 className="lh fs">
               Connect with coaches who've been through what you're facing and
               can guide you to success.
             </h1>
-            <p class="fs-3 text-dark p-4 bg">
+            <p className="fs-3 text-dark p-4 bg">
               Lorem ipsum dolor sit amet consectetur. Tempus amet mauris velit
               sed. Non sodales diam non viverra dui.
             </p>
-            <button class="btn btn-outline-dark text-white p-3 fs-2 border-3">
+            <button className="btn btn-outline-dark text-white p-3 fs-2 border-3">
               Join Demo
             </button>
+          </div>
+        </div>
+      </div>
+
+      {/* __________________________________________ */}
+
+      <div className="container-fluid p-5">
+        <header className="text-center d-flex flex-column gap-3 mt-5">
+          <p className="fs-2 fw-bold l-s ">OUR TRENDING</p>
+          <h1 className="fw-bolder">Top COACH</h1>
+        </header>
+        <div className="container w-auto">
+          <div className="row gap-5 justify-content-center">
+            <div className="col-xl-3 col-lg-4 col-md-6  text-center mt-5 br p-4 ccss">
+              <img width={75} className="m-auto" src="./profile1.png" alt="" />
+              <h2 className="fs-1 fw-bold mt-2">Jim Robey</h2>
+              <p className="fs-4">Spirituality, Leadership, Executive</p>
+              <p>
+                <span className="mx-3 fs-4">
+                  <img src="./1.png" alt="" /> !6 Years{" "}
+                </span>
+                <span className="mx-3 fs-4">
+                  <img src="./2.png" alt="" /> 20k{" "}
+                </span>
+                <span className="mx-3 fs-4">
+                  <img src="./3.png" alt="" /> $399{" "}
+                </span>
+              </p>
+              <img className="tags" width={80} src="./tags.png" alt="" />
+            </div>
+            <div className="col-xl-3 col-lg-4 col-md-6 text-center mt-5 br p-4 ccss">
+              <img width={75} className="m-auto" src="./profile2.png" alt="" />
+              <h2 className="fs-1 fw-bold mt-2">Jim Robey</h2>
+              <p className="fs-4">Spirituality, Leadership, Executive</p>
+              <p>
+                <span className="mx-3 fs-4">
+                  <img src="./1.png" alt="" /> !6 Years{" "}
+                </span>
+                <span className="mx-3 fs-4">
+                  <img src="./2.png" alt="" /> 20k{" "}
+                </span>
+                <span className="mx-3 fs-4">
+                  <img src="./3.png" alt="" /> $399{" "}
+                </span>
+              </p>
+              <img className="tags" width={80} src="./tags2.png" alt="" />
+            </div>{" "}
+            <div className="col-xl-3 col-lg-4 col-md-6 text-center mt-5 br p-4 ccss">
+              <img width={75} className="m-auto" src="./profile3.png" alt="" />
+              <h2 className="fs-1 fw-bold mt-2">Jim Robey</h2>
+              <p className="fs-4">Spirituality, Leadership, Executive</p>
+              <p>
+                <span className="mx-3 fs-4">
+                  <img src="./1.png" alt="" /> !6 Years{" "}
+                </span>
+                <span className="mx-3 fs-4">
+                  <img src="./2.png" alt="" /> 20k{" "}
+                </span>
+                <span className="mx-3 fs-4">
+                  <img src="./3.png" alt="" /> $399{" "}
+                </span>
+              </p>
+              <img className="tags" width={80} src="./tags3.png" alt="" />
+            </div>{" "}
+            <div className="col-xl-3 col-lg-4 col-md-6  text-center mt-5 br p-4 ccss">
+              <img width={75} className="m-auto" src="./profile1.png" alt="" />
+              <h2 className="fs-1 fw-bold mt-2">Jim Robey</h2>
+              <p className="fs-4">Spirituality, Leadership, Executive</p>
+              <p>
+                <span className="mx-3 fs-4">
+                  <img src="./1.png" alt="" /> !6 Years{" "}
+                </span>
+                <span className="mx-3 fs-4">
+                  <img src="./2.png" alt="" /> 20k{" "}
+                </span>
+                <span className="mx-3 fs-4">
+                  <img src="./3.png" alt="" /> $399{" "}
+                </span>
+              </p>
+              <img className="tags" width={80} src="./tags.png" alt="" />
+            </div>
+            <div className="col-lg-4  col-xl-3  col-md-6 text-center mt-5 br p-4 ccss">
+              <img width={75} className="m-auto" src="./profile2.png" alt="" />
+              <h2 className="fs-1 fw-bold mt-2">Jim Robey</h2>
+              <p className="fs-4">Spirituality, Leadership, Executive</p>
+              <p>
+                <span className="mx-3 fs-4">
+                  <img src="./1.png" alt="" /> !6 Years{" "}
+                </span>
+                <span className="mx-3 fs-4">
+                  <img src="./2.png" alt="" /> 20k{" "}
+                </span>
+                <span className="mx-3 fs-4">
+                  <img src="./3.png" alt="" /> $399{" "}
+                </span>
+              </p>
+              <img className="tags" width={80} src="./tags3.png" alt="" />
+            </div>{" "}
+            <div className="col-xl-3 col-lg-4 col-md-6 text-center mt-5 br p-4 ccss">
+              <img width={75} className="m-auto" src="./profile3.png" alt="" />
+              <h2 className="fs-1 fw-bold mt-2">Jim Robey</h2>
+              <p className="fs-4">Spirituality, Leadership, Executive</p>
+              <p>
+                <span className="mx-3 fs-4">
+                  <img src="./1.png" alt="" /> !6 Years{" "}
+                </span>
+                <span className="mx-3 fs-4">
+                  <img src="./2.png" alt="" /> 20k{" "}
+                </span>
+                <span className="mx-3 fs-4">
+                  <img src="./3.png" alt="" /> $399{" "}
+                </span>
+              </p>
+              <img className="tags" width={80} src="./tags2.png" alt="" />
+            </div>{" "}
           </div>
         </div>
       </div>
